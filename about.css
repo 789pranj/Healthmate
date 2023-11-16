@@ -1,0 +1,153 @@
+:root{
+    --mainclr:#239f85;
+    --secclr:#ff5d22;
+    --third:#DFE4E0;
+    --mainafterclr:hsl(167, 81%, 79%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    transition: .2s;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+    
+}
+.header{
+    padding: 1rem 7%;
+    background-color: var(--mainclr);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header #logo{
+    width: 50px;
+}
+.navbar a{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    position: relative;
+  
+}
+.navbar a:after{
+    content: '';
+    background: var(--secclr);
+    width: 0;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+    transition: .3s;
+}
+.navbar a:hover:after{
+    content: '';
+    background: var(--secclr);
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+}
+.icons div{
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: white;
+    display: none;
+}
+.icons a{
+    
+    color: white;
+    background: var(--secclr);
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    transition: .5s;
+}
+.icons a:hover{
+    background: transparent;
+    border: 1px solid var(--secclr);
+}
+.navbar.active{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.background-image{
+    background: url(images/background.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 6%;
+    position: relative;
+    background-attachment: fixed;
+
+}
+
+
+.division{
+    background-color: #056651;
+    width: fit-content;
+    border-radius: 5%;
+    margin-left: 10px;
+}
+
+.division .content{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.division .heading{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+    color: #16d4ab;
+}
+.division h1{
+    font-size: 30px;
+    margin-left: 10px;
+    padding-left: 10px;
+    color: rgba(226, 214, 214, 0.781);
+}
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--mainclr); 
+    background: var(--mainclr);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--secclr); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--third); 
+  }
+
+  #foot{
+    background: #056651;
+    /* margin-top: 5vh; */
+    width: 100%;
+    overflow: hidden;
+    padding : 25px 0px 25px 0px;
+    color: white;
+    text-align: center;
+}
