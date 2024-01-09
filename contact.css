@@ -93,7 +93,7 @@ html{
 
 body{
     /* background-color: #ff5d22; */
-    background: url('C:\\Users\\pranj\\Desktop\\health care website\\health care website\\images\\gal5.jpg');
+    /* background: url('images/gal3.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -110,7 +110,7 @@ body{
 header {
     height: max-content;
     background-color: transparent;
-    color:#3c763d;
+    color: wheat;
     text-align: center;
     padding: 1em;
     font-size: 30px;
@@ -119,10 +119,17 @@ header {
 section {
     margin: 5px 30px 5px 30px;
     padding: 5px 0px ;
-    background-color:  rgba(4, 37, 31, 0.7);
+    background-color:  rgba(176, 184, 182, 0.7);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     
+}
+
+.head{
+    background-color: teal;
+    margin: 5px 30px 5px 30px;
+    border-radius: 12px;
+
 }
 
 form {
@@ -135,7 +142,7 @@ label {
     margin: 10px 0 5px;
     font-weight: bold;
     font-size: 25px;
-    color: aquamarine;
+    color: rgb(4, 46, 32);
 }
 
 input, textarea {
@@ -170,8 +177,8 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     margin-top: 20px;
     padding: 15px;
     background-color: transparent;
-    border: 2px solid #9acc9a;
-    color: aquamarine;
+    border: 2px solid #223422;
+    color: rgb(35, 117, 184);
     border-radius: 4px;
     display: none;
     animation: fadeIn 1s ease-in-out;

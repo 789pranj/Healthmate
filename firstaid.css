@@ -14,7 +14,7 @@
     text-decoration: none;
 }
 body{
-    background-image: url('C:\\Users\\pranj\\Desktop\\health care website\\health care website\\images\\doctor-g024485840_1920.jpg');
+    background-image: url('images/firstaid.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -90,22 +90,24 @@ html{
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    color: #086e58;
+    color: black;
     margin: 10px;
     padding: 10px;
 }
 .division{
     margin: 20px 20px 20px 20px;
-    background-color: rgba(35, 159, 133, 0.1);
+    background-color: rgba(83, 210, 183, 0.1);
     width: 70%;
     padding-left: 10px;
     padding-bottom: 10px;
     border-radius: 10%;
+    margin-bottom: 40px;
     
 }
 .division .heading{
     font-size: 40px;
-    color: #085f4c;
+    color: black;
+    font-weight: bolder;
     padding: 10px;
 }
 li{

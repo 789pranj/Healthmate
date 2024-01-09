@@ -14,7 +14,10 @@
     text-decoration: none;
 }
 body{
-    background-color: #caf3ea;
+    background-image: url('images/firstaid.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 html{
     font-size: 62.5%;   
@@ -143,6 +146,9 @@ h1{
     display: block;
 }
 
+.photo{
+    width: 200px;
+}
 
 ::-webkit-scrollbar {
     width: 15px;

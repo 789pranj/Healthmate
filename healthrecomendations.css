@@ -14,15 +14,18 @@
     text-decoration: none;
     
 }
+
 html{
     font-size: 62.5%;
 }
 
-body{
-    background: url('C:\\Users\\pranj\\Desktop\\health care website\\health care website\\images\\pexels-gustavo-fring-4173239.jpg');
+.bgimage{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    height: 100%;
 }
 .header{
     padding: 1rem 7%;
@@ -95,32 +98,48 @@ body{
     left: 50%;
     width: 50%;
     transform: translate(-80%);
+    
 }
+/* body{
+    background: url('C:\\Users\\pranj\\Desktop\\health care website\\health care website\\images\\pexels-gustavo-fring-4173239.jpg');
+    width: 100%;
+} */
+
+
+body{
+    /* background-color: #ff5d22; */
+    background: url('C:\\Users\\pranj\\Desktop\\health care website\\health care website\\images\\pexels-gustavo-fring-4173239.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .division{
     margin: 20px 20px 20px 20px;
-    background-color: rgba(53, 65, 63, 0.6);
-    width: 70%;
-    padding : 0px 20px 20px 20px;
-    border-radius: 10%;
+    background-color: rgba(0,0,0,0.5);
+    width: 80%;
+    padding : 20px 20px 20px 20px;
+    border-radius: 20px;
 }
 .division .heading{
     font-size: 40px;
     text-align: center;
-    color: #2cdcb6;
+    color:aquamarine;
 
 }
 .division .hed{
     font-size: 30px;
-    color: #2cdcb6;
+    color:aqua;
     font-weight: bolder;
     margin-left: 4px; 
     padding-top: 15px;
     padding-bottom: 5px;
+    text-decoration: underline;
     text-align: center;
 }
 .division .data{
-    font-size: 20px;
-    color: whitesmoke;
+    font-size: 25px;
+    color:antiquewhite;
     font-weight: bold;
     margin-left: 30px; 
     padding-top: 5px;
@@ -130,14 +149,13 @@ body{
 .content{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenlyx;
     margin: 20px;
 }
-.content .image{
-    
-    width: 70%;
-    margin-left: 100px;
 
+.content .image{
+    width: 55%;
+    margin-left: 100px;
 }
 
 ::-webkit-scrollbar {

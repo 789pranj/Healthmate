@@ -95,7 +95,7 @@ html{
 
 
 .division{
-    background-color: #056651;
+    /* / */
     width: fit-content;
     border-radius: 5%;
     margin-left: 10px;
@@ -105,21 +105,21 @@ html{
     font-size: 20px;
     padding: 10px;
     margin: 10px;
-    color: antiquewhite;
+    color: rgb(5, 3, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.division .heading{
+.heading{
     font-size: 40px;
     text-align: center;
     margin: 20px;
-    color: #16d4ab;
+    color: #0f1e1a;
 }
 .division h1{
     font-size: 30px;
     margin-left: 10px;
     padding-left: 10px;
-    color: rgba(226, 214, 214, 0.781);
+    color: rgba(39, 35, 35, 0.781);
 }
 ::-webkit-scrollbar {
     width: 15px;
