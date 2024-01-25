@@ -3,6 +3,7 @@
     --secclr:#ff5d22;
     --third:#DFE4E0;
     --mainafterclr:hsl(167, 81%, 79%);
+    --main:hsl(167, 20%, 60%);
 }
 *{
     margin: 0;
@@ -15,7 +16,9 @@
 }
 html{
     font-size: 62.5%;
-    
+}
+body{
+    background-color:rgb(227, 238, 235);
 }
 .header{
     padding: 1rem 7%;
@@ -82,7 +85,7 @@ html{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 .background-image{
-    background: url("images/background.jpg");
+    background: url("images/pexels-gustavo-fring-4173239.jpg");
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -363,16 +366,21 @@ html{
 }
 .footer{
     padding: 6rem 7%;
-    background: var(--third);
+    background: var(--main);
 }
 .main-footer{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
 }
+
+.inner-footer{
+    flex: 1 1 200px; 
+    background-size: cover;
+}
+
 .inner-footer{
     flex: 1 1 200px;
 }
@@ -414,7 +422,6 @@ html{
   ::-webkit-scrollbar-thumb:hover {
     background: var(--third); 
   }
-
 
 
 

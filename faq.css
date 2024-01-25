@@ -4,6 +4,11 @@
     --third:#DFE4E0;
     --mainafterclr:hsl(167, 81%, 79%);
 }
+
+html{
+    font-size: 62.5%;   
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -13,15 +18,14 @@
     text-transform: capitalize;
     text-decoration: none;
 }
+
 body{
-    background-image: url('images/firstaid.jpg');
+    background-image: url('images/doctor-g024485840_1920.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-html{
-    font-size: 62.5%;   
-}
+
 .header{
     padding: 1rem 7%;
     background-color: var(--mainclr);
@@ -71,7 +75,6 @@ html{
     display: none;
 }
 .icons a{
-    
     color: white;
     background: var(--secclr);
     padding: 1.5rem 3rem;
@@ -86,36 +89,53 @@ html{
 .navbar.active{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
-.he .hea {
-    font-size: 50px;
+
+.heading{
+    font-size: 45px;
     font-weight: bold;
     text-align: center;
-    color: black;
-    margin: 10px;
-    padding: 10px;
-}
-.division{
-    margin: 20px 20px 20px 20px;
-    background-color: rgba(83, 210, 183, 0.1);
-    width: 70%;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    border-radius: 20px;
-    margin-bottom: 40px;
-    
-}
-.division .heading{
-    font-size: 40px;
-    color: black;
-    font-weight: bolder;
-    padding: 10px;
-}
-li{
-    font-size: 20px;
-    color:rgb(27, 26, 26);
+    margin: 1.5% 0% 1.5% 0%;
+    color:#02221b;
 }
 
-    ::-webkit-scrollbar {
+.inner{
+    color: white;
+    background: rgba(0,0,0,0.5);
+    width: 80%;
+    margin: 0% 9% 0% 9%;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inner .question{
+    font-size: 25px;
+}
+
+.inner .answer{
+    font-size: 18px;
+    margin-left: 2.8%;
+    margin-right: 3%;
+}
+
+.inner .answer1{
+    font-size: 18px;
+    margin-left: 3.1%;
+    margin-right: 3%;
+}
+
+#foot{
+    background: #056651;
+    margin-top: 5vh;
+    width: 100%;
+    overflow: hidden;
+    padding : 25px 0px 25px 0px;
+    color: white;
+    text-align: center;
+}
+
+
+::-webkit-scrollbar {
     width: 15px;
   }
   
@@ -136,12 +156,3 @@ li{
     background: var(--third); 
   }
 
-  #foot{
-    background: #056651;
-    margin-top: 5vh;
-    width: 100%;
-    overflow: hidden;
-    padding : 25px 0px 25px 0px;
-    color: white;
-    text-align: center;
-}
